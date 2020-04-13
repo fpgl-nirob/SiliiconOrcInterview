@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '10.0'
+
+target 'SiliconOrcInterview' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SiliconOrcInterview
+  # UI Components
+      pod 'MBProgressHUD'
+      pod 'Toaster'
+
+  # Services
+      pod 'Alamofire'
+      pod 'SQLite.swift'
+      pod 'SwiftyJSON'
+
+end
