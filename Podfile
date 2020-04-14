@@ -11,7 +11,8 @@ target 'SiliconOrcInterview' do
       pod 'Toaster'
 
   # Services
-      pod 'Alamofire'
+      #pod 'Alamofire'
+      pod 'Alamofire', '~> 4.9.1'
       pod 'SQLite.swift'
       pod 'SwiftyJSON'
 
